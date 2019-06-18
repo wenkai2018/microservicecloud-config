@@ -5,7 +5,6 @@
 ---
 server: 
   port: 7001 #注册中心占用7001端口，冒号后面必须要有空格
-  
 spring: 
   profiles: dev
   application: 
@@ -22,7 +21,6 @@ eureka:
 ---
 server: 
   port: 7001 #注册中心占用7001端口，冒号后面必须要有空格
-  
 spring: 
   profiles: test
   application: 
